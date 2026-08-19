@@ -1,0 +1,77 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+locale: "pl"
+
+collections:
+  - name: "settings"
+    label: "Ustawienia strony"
+    files:
+      - name: "general"
+        label: "Ustawienia ogolne"
+        file: "content/settings.json"
+        fields:
+          - {name: "site_title", label: "Tytul strony", widget: "string"}
+          - {name: "site_description", label: "Opis SEO", widget: "text"}
+          - {name: "email", label: "Email", widget: "string"}
+          - {name: "phone", label: "Telefon", widget: "string"}
+          - {name: "address", label: "Adres", widget: "string"}
+          - {name: "facebook_url", label: "Facebook URL", widget: "string", required: false}
+          - {name: "instagram_url", label: "Instagram URL", widget: "string", required: false}
+
+  - name: "services"
+    label: "Uslugi"
+    files:
+      - name: "services_content"
+        label: "Lista uslug"
+        file: "content/services.json"
+        fields:
+          - {name: "section_label", label: "Etykieta sekcji", widget: "string"}
+          - {name: "section_title", label: "Tytul sekcji", widget: "string"}
+          - {name: "section_subtitle", label: "Podtytul", widget: "text"}
+          - name: "items"
+            label: "Uslugi"
+            widget: "list"
+            fields:
+              - {name: "title", label: "Nazwa", widget: "string"}
+              - {name: "description", label: "Opis", widget: "text"}
+              - {name: "image", label: "Zdjecie", widget: "image"}
+
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - name: "portfolio_content"
+        label: "Projekty"
+        file: "content/portfolio.json"
+        fields:
+          - {name: "section_label", label: "Etykieta", widget: "string"}
+          - {name: "section_title", label: "Tytul", widget: "string"}
+          - name: "projects"
+            label: "Projekty"
+            widget: "list"
+            fields:
+              - {name: "title", label: "Nazwa", widget: "string"}
+              - {name: "location", label: "Lokalizacja", widget: "string"}
+              - {name: "image", label: "Zdjecie", widget: "image"}
+
+  - name: "about"
+    label: "O nas"
+    files:
+      - name: "about_content"
+        label: "Sekcja O nas"
+        file: "content/about.json"
+        fields:
+          - {name: "section_label", label: "Etykieta", widget: "string"}
+          - {name: "title", label: "Tytul", widget: "string"}
+          - {name: "description_1", label: "Akapit 1", widget: "text"}
+          - {name: "description_2", label: "Akapit 2", widget: "text"}
+          - {name: "photo", label: "Zdjecie", widget: "image"}
+          - name: "highlights"
+            label: "Wyrozniki"
+            widget: "list"
+            max: 4
+            fields:
+              - {name: "text", label: "Tekst", widget: "string"}

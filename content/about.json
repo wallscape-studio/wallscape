@@ -1,0 +1,13 @@
+{
+    "section_label": "O nas",
+    "title": "Kreatywnosc spotyka <span>technologie</span>",
+    "description_1": "Czesc, jestem Ania - absolwentka Edinburgh College of Art z ponad 15-letnim doswiadczeniem w projektowaniu przestrzeni.",
+    "description_2": "WallScape to moja autorska wizja tego, jak nowoczesna technologia druku moze zmienic kazda powierzchnie w statement piece.",
+    "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=500&fit=crop",
+    "highlights": [
+        {"text": "15 lat doswiadczenia"},
+        {"text": "200+ ukonczonych projektow"},
+        {"text": "100% satysfakcji klientow"},
+        {"text": "Edinburgh College of Art"}
+    ]
+}
