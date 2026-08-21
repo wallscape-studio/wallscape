@@ -1,13 +1,37 @@
 {
-    "section_label": "Nasze uslugi",
-    "section_title": "Tworzymy niesamowite przestrzenie druku",
-    "section_subtitle": "Od kameralnych wnetrz po spektakularne instalacje komercyjne.",
-    "items": [
-        {"title": "Wnetrza mieszkalne", "description": "Personalizuj swoje cztery sciany. Twoja wizja, nasza realizacja.", "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&h=650&fit=crop"},
-        {"title": "Biura i przestrzenie komercyjne", "description": "Wzmocnij brand identity grafika firmowa na nowym poziomie.", "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&h=650&fit=crop"},
-        {"title": "Restauracje i hotele", "description": "Stworz vibes, ktory goscie zapamietaja na dlugo.", "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=650&fit=crop"},
-        {"title": "Indywidualny design", "description": "Nasz team stworzy grafike szyta na miare Twoich potrzeb.", "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=650&fit=crop"},
-        {"title": "Muzea i galerie", "description": "Reprodukcje dziel sztuki w najwyzszej rozdzielczosci.", "image": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=500&h=650&fit=crop"},
-        {"title": "Reklama i branding", "description": "Murale reklamowe i wystroj punktow sprzedazy.", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&h=650&fit=crop"}
-    ]
+  "section_label": "Nasze uslugi",
+  "section_title": "Tworzymy niesamowite przestrzenie druku",
+  "section_subtitle": "Od kameralnych wnetrz po spektakularne instalacje komercyjne.",
+  "items": [
+    {
+      "title": "Wnetrza mieszkalne",
+      "description": "Personalizuj swoje cztery sciany. Twoja wizja, nasza realizacja.",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&h=650&fit=crop"
+    },
+    {
+      "title": "Biura i przestrzenie komercyjne",
+      "description": "Wzmocnij brand identity grafika firmowa na nowym poziomie.",
+      "image": "/assets/uploads/biuro_1.jpeg"
+    },
+    {
+      "title": "Restauracje i hotele",
+      "description": "Stworz vibes, ktory goscie zapamietaja na dlugo.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=650&fit=crop"
+    },
+    {
+      "title": "Indywidualny design",
+      "description": "Nasz team stworzy grafike szyta na miare Twoich potrzeb.",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=650&fit=crop"
+    },
+    {
+      "title": "Muzea i galerie",
+      "description": "Reprodukcje dziel sztuki w najwyzszej rozdzielczosci.",
+      "image": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=500&h=650&fit=crop"
+    },
+    {
+      "title": "Reklama i branding",
+      "description": "Murale reklamowe i wystroj punktow sprzedazy.",
+      "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&h=650&fit=crop"
+    }
+  ]
 }
